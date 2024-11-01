@@ -30,6 +30,7 @@ const TodoList = () => {
             placeholder="Add your task..."
             onChange={(e) => setInputValue(e.target.value)}
           />
+          
           <button className="btn bg-primary text-white w-25 ms-2" type="submit">
             Add Task
           </button>
