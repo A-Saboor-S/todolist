@@ -33,7 +33,8 @@ const TodoList = () => {
           
           <button className="btn bg-primary text-white w-25 ms-2" type="submit">
             Add Task
-          </button>
+          </button>  
+          
         </form>
         <div className="rounded-3">
           {todoApp.map((task, index) => (
