@@ -20,7 +20,7 @@ const TodoList = () => {
   return (
     <div className="my-5 d-flex justify-content-center">
       <div style={{ width: "600px" }} className="bg-warning rounded-3 text-white p-3 shadow">
-        <h1 className="text-center mb-4 text-primary">To-Do List</h1>
+        <h1 className="text-center mb-4 text-black">To-Do List</h1>
         <form className="d-flex mb-3" onSubmit={formHandler}>
           <input
             value={inputValue}
@@ -45,7 +45,7 @@ const TodoList = () => {
             >
 
 
-              
+
               <h5>{task}</h5>
               <button onClick={() => deleteHandler(task)} className="btn btn-danger">
                 Delete
